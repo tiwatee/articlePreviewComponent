@@ -38,5 +38,7 @@ beforeShare.addEventListener("click",function(){
 afterShare.addEventListener("click", function(){
     after.style.display="none";
     before.style.display="grid";
+    Icon.style.backgroundColor="hsl(210, 46%, 95%)"
+    Icon.style.color="hsl(214, 17%, 51%)"
 })
 
