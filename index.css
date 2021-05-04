@@ -17,7 +17,6 @@ body{
     margin: 10vh 5vw ;
     background-color: white;
     border-radius: 10px;
-    /* padding-bottom: 1vh; */
 }
 .top-image img{
     height: 30vh;
@@ -47,7 +46,6 @@ div.profile{
     grid-template-columns: auto auto auto;
     grid-gap: 0;
     padding: 0;
-    /* display: none; */
 }
 #before{
     display: grid;
@@ -58,7 +56,6 @@ div.avatarDiv{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: violet; */
     margin: 0;
     padding: 0;
 }
@@ -115,11 +112,9 @@ i[class="fa fa-share"]{
     min-height: 7vh;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    /* display: grid; */
 }
 #after .shareText{
     width: 29vw;
-    /* background-color: violet; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -134,7 +129,6 @@ i[class="fa fa-share"]{
 #after .socialIcon{
     width: 41vw;
     display: flex;
-    /* background-color: violet; */
 }
 #after .socialIcon i{
     color: white;
@@ -161,14 +155,13 @@ i[class="fa fa-share"]{
 #after .share{
     width: 20vw;
     padding-right: 5vw;
-    /* background-color: yellowgreen; */
 }
 
 div.attribution {
     font-size: 11px;
     text-align: center;
     height: 4vh;
-    background-color: gray;
+    background-color: hsl(214, 17%, 51%);
     font-weight: 500;
     position: fixed;
     bottom: 0;
@@ -180,8 +173,7 @@ text-decoration: none; background-color: inherit; font-weight: 700; }
 
 @media only screen and (min-width:400px) and (orientation:landscape) {
     .wrapper{
-        margin: 10vh 20vw ;
-        /* padding-bottom: 2vh; */
+        margin: 10vh 20vw;
     }
     .top-image img{
         height: 50vh;
@@ -193,50 +185,46 @@ text-decoration: none; background-color: inherit; font-weight: 700; }
         margin-top: 3vh;
         padding-bottom: 2vh;
         height: unset;
-        /* background-color: turquoise; */
     }
     div.avatarDiv{
         width: 10vw;
-        /* background-color: violet; */
     }
     div.nameDiv{
         width: 26vw;
         padding-top: 2vh;
-        /* background-color: tomato; */
     }
     .nameDiv p{
         font-size: 14px;
     }
     div.share{
         width: 10vw;
-        /* background-color: yellow; */
     }
     #after{
         padding-top: 1vh;
     }
     #after .shareText{
         width: 15vw;
-        /* background-color: violet; */
         letter-spacing: 4px;
         padding-left: 7vw;
         font-size: 17px;
     }
     #after .socialIcon{
         width: 30vw;
-        /* background-color: violet; */
     }
 
     #after .share{
         width: 15vw;
         padding-right: 7vw;
-        /* background-color: yellowgreen; */
+    }
+    div.attribution {
+        font-size: 0.7em;
+        height: 5vh;   
     }
 
 }
 @media only screen and (min-width:768px) and (orientation:portrait){
     .wrapper{
         margin: 10vh 15vw ;
-        /* padding-bottom: 2vh; */
     }
     .content{
         margin: 5vh 5vw 3vh 5vw;
@@ -252,11 +240,9 @@ text-decoration: none; background-color: inherit; font-weight: 700; }
     div.profile{
         margin-top: 3vh;
         padding-bottom: unset;
-        /* background-color: turquoise; */
     }
     div.avatarDiv{
         width: 15vw;
-        /* background-color: violet; */
     }
     img.avatar{
         height: 100px;
@@ -265,14 +251,12 @@ text-decoration: none; background-color: inherit; font-weight: 700; }
     div.nameDiv{
         width: 30vw;
         padding-top: 2vh;
-        /* background-color: tomato; */
     }
     .nameDiv p{
         font-size: 18px;
     }
     div.share{
         width: 15vw;
-        /* background-color: yellow; */
     }
     i{
         width: 80px;
@@ -289,13 +273,11 @@ text-decoration: none; background-color: inherit; font-weight: 700; }
     }
     #after .shareText{
         width: 20vw;
-        /* background-color: violet; */
         padding-left: 5vw;
         font-size: 28px;
     }
     #after .socialIcon{
         width: 30vw;
-        /* background-color: violet; */
     }
     #after .socialIcon i{
         width: 40px;
@@ -306,7 +288,6 @@ text-decoration: none; background-color: inherit; font-weight: 700; }
     #after .share{
         width: 20vw;
         padding-right: 5vw;
-        /* background-color: yellowgreen; */
     }
     #after .share i{
         width: 80px;
@@ -314,7 +295,10 @@ text-decoration: none; background-color: inherit; font-weight: 700; }
     }
     #after .share i[class="fa fa-share"]{
         font-size: 36px;
-    }    
+    }   
+    div.attribution {
+        font-size: 1em;
+    } 
 }
 
 @media only screen and (min-width:1024px) and (orientation:landscape) {
@@ -334,11 +318,9 @@ text-decoration: none; background-color: inherit; font-weight: 700; }
     div.profile{
         margin-top: 3vh;
         padding-bottom: unset;
-        /* background-color: turquoise; */
     }
     div.avatarDiv{
         width: 11vw;
-        /* background-color: violet; */
     }
     img.avatar{
         height: 100px;
@@ -347,14 +329,12 @@ text-decoration: none; background-color: inherit; font-weight: 700; }
     div.nameDiv{
         width: 28vw;
         padding-top: 2vh;
-        /* background-color: tomato; */
     }
     .nameDiv p{
         font-size: 18px;
     }
     div.share{
         width: 11vw;
-        /* background-color: yellow; */
     }
     i{
         width: 50px;
@@ -362,6 +342,10 @@ text-decoration: none; background-color: inherit; font-weight: 700; }
     }
     i[class="fa fa-share"]{
         font-size: 30px;
+    }
+    div.attribution {
+        font-size: 1rem;
+        height: 4vh;
     }
     
 }
@@ -381,7 +365,6 @@ text-decoration: none; background-color: inherit; font-weight: 700; }
         padding: 0;
         width: 70vw;
         min-height: 40vh;
-        /* margin: 15vh 10vw auto 10vw; */
         margin: unset;
     }
     .top-image{
@@ -397,7 +380,6 @@ text-decoration: none; background-color: inherit; font-weight: 700; }
     .content{
         width: 33vw;
         height: unset;
-        /* background-color: violet; */
         margin: 5vh 3vw 3vh 3vw;
     }
     h3{
@@ -411,14 +393,12 @@ text-decoration: none; background-color: inherit; font-weight: 700; }
     div.profile{
         margin-top: 3vh;
         padding-bottom: unset;
-        /* background-color: turquoise; */
     }
     div.avatarDiv{
         width: 6vw;
         float: left;
         justify-content: unset;
         align-items: center;
-        /* background-color: violet; */
     }
     img.avatar{
         height: 70px;
@@ -428,14 +408,12 @@ text-decoration: none; background-color: inherit; font-weight: 700; }
         width: 22vw;
         padding-top: 2vh;
         padding-left: unset;
-        /* background-color: tomato; */
     }
     .nameDiv p{
         font-size: 18px;
     }
     div.share{
         width: 5vw;
-        /* background-color: yellow; */
     }
     i{
         width: 50px;
@@ -445,6 +423,26 @@ text-decoration: none; background-color: inherit; font-weight: 700; }
         font-size: 28px;
     }
     #after{
+        position: absolute;
+        width:20vw;
+        left: 70vw;
+        top:48vh;
+        border-radius: 10px;
+    }
+    #after .shareText{
+        width: 8vw;
+        letter-spacing: 3px;
+        padding-left: 1vw;
+        font-size: 20px;
+    }
+    #after .socialIcon{
+        width: 12vw;
+    }
+    #after .socialIcon i{
+        margin: 2vh 1vw;
+    }
+
+    #after .share{
         display: none;
     }
 }
